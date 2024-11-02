@@ -1,0 +1,69 @@
+/* Main Side Panel Styling */
+.sidepanel__main {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Custom Style for Scrolling */
+  .custom__style {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: #4a4a4a #1f1f1f;
+  }
+  
+  /* Hide Scrollbar in Webkit Browsers */
+  .custom__style::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .custom__style::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a;
+    border-radius: 4px;
+  }
+  
+  /* Panel Title Styling */
+  .side__panel__title {
+    font-size: 2rem;
+    color: #4db5ff;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Center Wrapper for Title */
+  .side__panel__title__wrapper {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom Content Area */
+  .custom__content {
+    padding: 1rem;
+    margin: 0;
+    overflow-y: auto;
+    color: #d0d0d0;
+  }
+  
+  /* Scrollbar Styling for Custom Content */
+  .custom__content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .custom__content::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
